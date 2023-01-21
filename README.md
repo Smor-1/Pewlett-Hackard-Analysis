@@ -39,5 +39,7 @@ Given that so many people will be retiring soon (>72,000) and there are only ~15
 ### Additional Queries
 
 In order to provide more insight into the upcoming 'silver tsunami' we could add the following queries:
+
 -A query that looks at a more narrow range of employees who will be retiring most immediately (i.e not a 4 year range) so as to determine if there is one year skewing the dataset to have a large number of retirees in a particular year
+
 -We could also add a query that determines mentorship eligibility by position title - this would allow us to determine the breakdown of mentors to most effectively devise a mentorship program and indicate if there is a need to hire external sources to help train the future employees
