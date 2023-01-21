@@ -84,3 +84,58 @@ ON (e.emp_no = de.emp_no)
 WHERE (e.birth_date BETWEEN '1952-01-01' AND '1955-12-31')
 AND (e.hire_date BETWEEN '1985-01-01' AND '1988-12-31')
 AND (de.to_date = '9999-01-01');
+
+
+
+
+
+
+--- Class 1 
+
+CREATE TABLE people (
+	name VARCHAR(30) NOT NULL,
+	has_pet BOOLEAN DEFAULT false,
+	pet_type VARCHAR(10) NOT NULL,
+	pet_name VARCHAR(30),
+	pet_age INT
+);
+
+SELECT * FROM people;
+
+INSERT INTO people (name, has_pet, pet_type, pet_name, pet_age)
+VALUES ('Jacob', true, 'dog', 'Misty', 10),
+  ('Ahmed', true, 'rock', 'Rockington', 100),
+  ('Peter', true, 'cat', 'Franklin', 2),
+  ('Dave', true, 'dog', '');
+
+SELECT * FROM people;
+
+SELECT pet_type, pet_name
+FROM people
+WHERE pet_type = 'dog'
+AND pet_age < 5;
+
+--SERIAL will add 1 number for each row
+CREATE TABLE cities(
+	id SERIAL PRIMARY KEY,
+	city VARCHAR(30) NOT NULL,
+	state VARCHAR(30) NOT NULL,
+	population INT
+);
+
+SELECT * FROM cities;
+
+INSERT INTO cities (city,state,population)
+VALUES ('Ottawa' , 'Ontario', 100);
+
+SELECT city
+FROM cities;
+
+
+
+
+
+
+
+
+
