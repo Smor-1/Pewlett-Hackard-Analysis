@@ -2,7 +2,7 @@
 
 ## Overview
 
-The purpose of this analysis was to determine the number of employees from Pwelett-Hackard who were retiring based on their job titles, and then using this information to identify employees who are eligible to be a part of a mentorship program. This analysis will help prepare for the 'silver tsunami' as there are a great many employees who are concurrently reaching retirement age. 
+The purpose of this analysis was to determine the number of employees from Pewlett-Hackard who were retiring based on their job titles, and then using this information to identify employees who are eligible to be a part of a mentorship program. This analysis will help prepare for the 'silver tsunami' as there are a great many employees who are concurrently reaching retirement age. 
 
 ## Results
 
