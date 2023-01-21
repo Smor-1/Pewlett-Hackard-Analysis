@@ -11,7 +11,9 @@ The purpose of this analysis was to determine the number of employees from Pwele
 ![Image](Employees_retiring.png)
 
 As can be seen in the chart above, there are quite a few employees retiring soon from a myriad of job titles. Here are 2 key insights from this deliverable:
+
 -A vast majority of the job titles from employees retiring are either senior engineers or senior staff
+
 -There are only 2 managers retiring, depending on what their role is this may or may not have a large impact on the company as a whole
 
 ### Employees Eligible for the Mentorship Program
@@ -19,7 +21,9 @@ As can be seen in the chart above, there are quite a few employees retiring soon
 https://github.com/Smor-1/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibility.csv
 
 The above csv file shows the employees that qualify for the mentorship program. Here are 2 key insights from this deliverable:
+
 -There are more people retiring than potential mentors
+
 -There are more than 1500 employees who qualify for this program
 
 ## Summary
